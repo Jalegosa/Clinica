@@ -4,6 +4,7 @@ class meds:
         self.tabs = tabs
         self.pill = pill
         self.syrup = syrup
+MedList=[]
 def ShowAllMeds(MedList=[]):
     contDisp=0
     for meds in MedList:
