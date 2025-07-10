@@ -11,7 +11,7 @@ def menu_principal():
         opcion = input("Seleccione una opción: ")
 
         if opcion == '1':
-            print(" menu pacientes")
+            print(" menu pacientes()")
         elif opcion == '2':
           print(" menu_farmacia()")
         elif opcion == '3':
