@@ -13,4 +13,6 @@ def MedTake (MedList=[]):
     for meds in MedList:
         print("1)", meds.Name)
 
-
+    MedImput= int(input("Ingrese el numero del medicamento a tomar:"))
+    if MedImput >0:
+        MedList[MedImput]()
