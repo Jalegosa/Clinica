@@ -53,7 +53,7 @@ def MedAdd(MedList=[]):
                 NewMed= meds(medname,0,MedCuant)
             elif KindImput == 3:
                 NewMed= meds(medname,0,0,MedCuant)
-
+            MedList.append(NewMed)
         elif MedCuant <1:
             print("Dato Invalido")
     elif KindImput <1|KindImput>3:
