@@ -18,7 +18,7 @@ def menu_principal():
             print("Vuelva Pronto")
             break
         else:
-            print("Esta opción no es válida.  Intente nuevamente.")
+            print("Ha ingresado una opción incorrecta.  Intente nuevamente.")
 
 
 menu_principal()
