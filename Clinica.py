@@ -23,7 +23,7 @@ def MedTake (MedList=[]):
         print("2)Pildora (",MedList[MedImput-1].pill," en existencia)")
         print("3)Jarabe (",MedList[MedImput-1].syrup," en existencia)")
         KindImput= int(input("Ingrese el numero del tipo de presentacion:"))
-        if KindImput >0:
+        if KindImput >0&KindImput<4:
             if KindImput == 1:
                 MedList[MedImput-1].tabs = MedList[MedImput-1].tabs - 1
             elif KindImput == 2:
@@ -42,7 +42,7 @@ def MedAdd(MedList=[]):
     print("2)Pildora")
     print("3)Jarabe")
     KindImput = int(input("Ingrese el numero del tipo de presentacion:"))
-    if KindImput >0:
+    if KindImput >0&KindImput<4:
         print("Cuantas unidades se estarian recibiendo?")
         MedCuant= int(input(""))
         if MedCuant >0:
@@ -50,4 +50,10 @@ def MedAdd(MedList=[]):
                 NewMed= meds(medname,MedCuant)
             elif KindImput == 2:
                 NewMed= meds(medname,0,MedCuant)
-            elif
+            elif KindImput == 3:
+                NewMed= meds(medname,0,0,MedCuant)
+
+        elif MedCuant <1:
+            print("Dato Invalido")
+    elif KindImput <1|KindImput>3:
+        print("Dato Invalido")
