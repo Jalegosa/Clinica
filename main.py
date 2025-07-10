@@ -1,7 +1,6 @@
 from collections import deque
 cola_pacientes = deque()
 
-
 def menu_principal():
     while True:
         print("\nBIENVENIDO AL MENÚ PRINCIPAL CLÍNICA\n  ")
