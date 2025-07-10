@@ -30,7 +30,7 @@ def MedTake (MedList=[]):
                 MedList[MedImput-1].pill = MedList[MedImput-1].pill - 1
             elif KindImput == 3:
                 MedList[MedImput-1].syrup = MedList[MedImput-1].syrup - 1
-        elif KindImput <1:
+        elif KindImput <1|KindImput>3:
             print("Dato Invalido")
     elif MedImput < 1:
         print("Dato Invalido")
