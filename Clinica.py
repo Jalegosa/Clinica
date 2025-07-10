@@ -9,5 +9,8 @@ def ShowAllMeds(MedList=[]):
         print("1)",meds.Name)
         print("Tableta:",meds.tabs," Pildora:", meds.pill," Jarabe:",meds.syrup)
 def MedTake (MedList=[]):
+    print("Que medicamento estaria tomando?")
     for meds in MedList:
-        MedPick=
+        print("1)", meds.Name)
+
+
