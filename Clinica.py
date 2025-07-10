@@ -6,6 +6,7 @@ class meds:
         self.syrup = syrup
 def ShowAllMeds(MedList=[]):
     contDisp=0
+    ea
     for meds in MedList:
         contDisp=contDisp+1
         print(contDisp,")",meds.Name)
